@@ -11,8 +11,47 @@
     font-size: 16px;
     background-image: linear-gradient(to right, #285FEB 0%, #583FF1 51%, #683AEE 100%);
 }
-
-
 .button:hover{
    opacity: 0.9;
 }
+.button:active{
+transform: translateY(2px);
+}
+
+.button2{
+    padding: 15px 40px;
+    text-decoration: none;
+    opacity: 1;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    background-color: #8471F7;
+}
+
+.button2:active{
+    transform: translateY(1px);
+    }
+
+
+    .button3{
+        padding: 15px 40px;
+        text-decoration: none;
+        opacity: 1;
+        border-radius: 5px;
+        display: inline-block;
+        border: solid;
+        border-color: #8471F7;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #8471F7;
+        font-size: 16px;
+        background-color: white;
+    }
+    
+    .button3:active{
+        transform: translateY(1px);
+        }
